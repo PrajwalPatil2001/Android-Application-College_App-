@@ -1,5 +1,5 @@
 # College App
-# ScreenShot
+# User Interface !
 ![screen-removebg-preview](https://github.com/PrajwalPatil2001/Android-Application/assets/152061367/8ef09455-69a4-48f8-81cc-78fd169b8891)
 ![Untitled-removebg-preview](https://github.com/PrajwalPatil2001/Android-Application/assets/152061367/ac309e56-a688-4d2a-83ce-4ee6df307577)
 ![Untitled-removebg-preview](https://github.com/PrajwalPatil2001/Android-Application/assets/152061367/d48b2529-9ec4-47a7-a6c4-a5dd5dc7285d)
