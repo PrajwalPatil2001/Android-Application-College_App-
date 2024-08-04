@@ -70,37 +70,29 @@
 
 
             <TextView
-                android:id="@+id/textView24"
+                android:id="@+id/username"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:text="Guest user"
                 android:fontFamily="serif"
-                android:text="@string/guest_user"
                 android:textAlignment="center"
                 android:textColor="@color/black"
                 android:textSize="20sp"
-                android:textStyle="bold" />
+                android:textStyle="bold"
+                tools:ignore="HardcodedText" />
 
             <TextView
-                android:id="@+id/textView27"
+                android:id="@+id/useremail"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="serif"
+                android:text="guestuser@gmail.com"
                 android:gravity="center"
-                android:text="@string/guestuser1234_gmail_com"
                 android:textAlignment="center"
-                android:textColor="@color/black"
-                android:textStyle="bold" />
-
-            <TextView
-                android:id="@+id/textView11"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:fontFamily="serif"
-                android:gravity="center"
-                android:text="Domain : Student"
                 android:textColor="@color/black"
                 android:textStyle="bold"
                 tools:ignore="HardcodedText" />
+
 
             <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/button5"

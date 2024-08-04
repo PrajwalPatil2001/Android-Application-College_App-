@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "908533542069",
+    "project_id": "login-register-data-college",
+    "storage_bucket": "login-register-data-college.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:908533542069:android:5d783393676fb4e1f6a2fc",
+        "android_client_info": {
+          "package_name": "com.example.college_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCuM-UVRKTRaQyUeRdZ3H9GQiB0RoXd6Ms"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

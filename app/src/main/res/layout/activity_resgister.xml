@@ -50,7 +50,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView4" />
 
     <EditText
-        android:id="@+id/editTextText"
+        android:id="@+id/etname"
         android:layout_width="300dp"
         android:layout_height="57dp"
         android:layout_marginTop="8dp"
@@ -59,7 +59,7 @@
         android:drawablePadding="15dp"
         android:elevation="5dp"
         android:ems="10"
-        android:hint="Name"
+        android:hint="User Name"
         android:inputType="text"
         android:paddingLeft="15dp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -67,7 +67,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView10" />
 
     <EditText
-        android:id="@+id/editTextTextEmailAddress2"
+        android:id="@+id/etemail"
         android:layout_width="300dp"
         android:layout_height="57dp"
         android:layout_marginTop="16dp"
@@ -79,12 +79,12 @@
         android:hint="Email"
         android:inputType="textEmailAddress"
         android:paddingLeft="15dp"
-        app:layout_constraintEnd_toEndOf="@+id/editTextText"
-        app:layout_constraintStart_toStartOf="@+id/editTextText"
-        app:layout_constraintTop_toBottomOf="@+id/editTextText" />
+        app:layout_constraintEnd_toEndOf="@+id/etname"
+        app:layout_constraintStart_toStartOf="@+id/etname"
+        app:layout_constraintTop_toBottomOf="@+id/etname" />
 
     <EditText
-        android:id="@+id/editTextTextPassword2"
+        android:id="@+id/etpass"
         android:layout_width="300dp"
         android:layout_height="57dp"
         android:layout_marginTop="16dp"
@@ -96,9 +96,9 @@
         android:hint="Password"
         android:inputType="textPassword"
         android:paddingLeft="15dp"
-        app:layout_constraintEnd_toEndOf="@+id/editTextTextEmailAddress2"
-        app:layout_constraintStart_toStartOf="@+id/editTextTextEmailAddress2"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextEmailAddress2" />
+        app:layout_constraintEnd_toEndOf="@+id/etemail"
+        app:layout_constraintStart_toStartOf="@+id/etemail"
+        app:layout_constraintTop_toBottomOf="@+id/etemail" />
 
     <TextView
         android:id="@+id/textView12"
@@ -112,7 +112,7 @@
         android:textSize="15sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword2" />
+        app:layout_constraintTop_toBottomOf="@+id/etpass" />
 
     <TextView
         android:id="@+id/textView13"

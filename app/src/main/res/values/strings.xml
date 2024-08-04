@@ -117,5 +117,10 @@ Engineering knowledge\nApply the knowledge of mathematics, science, engineering 
     <string name="result"><![CDATA[> Result]]></string>
     <string name="_03_admission_criteria">03|Admission Criteria</string>
     <string name="criteria">Criteria</string>
-
+    <string name="libraryIntro">Library is the heart of our Institution.\nLibrary provides facilities like open stack areas, individual study tables, reference books section, Reprography section etc.\nBook-Bank facility is also offered to toppers and needy students.</string>
+    <string name="librarybye">1.No transaction will be made without the identify card. I-card shall be nontransferable.\n2.Four books will be issued to the students at a time for 15 days.\n3.Re-issue will be made for another 10 days, subject to availability and demand of particular book.\n4.Students entering the library are required to keep their personal belongings in the property counter.</string>
+    <string name="sportsabout">INDOOR SPORTS\n1. Table tennis\n2. Chess\n3. Carom\n4. Badminton\nOUTDOOR SPORTS\n1. Cricket\n2. Football\n3. Volleyball\n4. Kabaddi</string>
+    <string name="canteentext">College has spacious canteen facility in the campus for the students and staff members and is run by college management.\nA verity of Indian food and snackitems are provided to the students and staff of the college at subsidized rates with quality food.\nRefreshments are available at the college canteen at affordable rates.\nAdequate seating facilities are provided to students and staff.\nThe canteen has a modern kitchen with the latest appliances.</string>
+    <string name="facility"> RO, UV Water Purifier with Water Cooler\nCCTV Surveillance\nFire Extinguishers\nFully Wi-Fi Connected\nLaptop and Mobile Charging Point</string>
+    <string name="hostel">Our objective is to provide boarding facilities within the college campus to create “A Home away from the Home” for the hostellers,\nwherein they can feel ease and put in their best efforts for acquiring Knowledge,\nPositive attitude and life skills.</string>
 </resources>

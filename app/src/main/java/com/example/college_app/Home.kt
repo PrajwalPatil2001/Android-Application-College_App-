@@ -53,24 +53,24 @@ class Home : Fragment(R.layout.fragment_home) {
 
 
 
-        val ReadMoreone =v.findViewById<TextView>(R.id.textView40)
-            ReadMoreone.setOnClickListener {
+        val Readmoreone =v.findViewById<TextView>(R.id.textView40)
+            Readmoreone.setOnClickListener {
                 val fragment_course=Mca_Fragment()
                 val transaction:FragmentTransaction = requireFragmentManager().beginTransaction()
                 transaction.replace(R.id.frame_container,fragment_course)
                 transaction.addToBackStack(null)
                 transaction.commit()
             }
-        val ReadMore2 =v.findViewById<TextView>(R.id.textView43)
-        ReadMore2.setOnClickListener {
+        val Readmore2 =v.findViewById<TextView>(R.id.textView43)
+        Readmore2.setOnClickListener {
             val fragment_mba=Mba()
             val transaction:FragmentTransaction = requireFragmentManager().beginTransaction()
             transaction.replace(R.id.frame_container,fragment_mba)
             transaction.addToBackStack(null)
             transaction.commit()
         }
-        val ReadMore3 =v.findViewById<TextView>(R.id.textView46)
-        ReadMore3.setOnClickListener {
+        val Readmore3 =v.findViewById<TextView>(R.id.textView46)
+        Readmore3.setOnClickListener {
             val electrical_fragment=Electrical_Fragment()
             val transaction:FragmentTransaction = requireFragmentManager().beginTransaction()
             transaction.replace(R.id.frame_container,electrical_fragment)
@@ -81,9 +81,9 @@ class Home : Fragment(R.layout.fragment_home) {
 
         val button =v.findViewById<AppCompatButton>(R.id.allbotton)
         button.setOnClickListener {
-            val all_fragment =Allprograms()
+            val allfragment =Allprograms()
             val transaction:FragmentTransaction = requireFragmentManager().beginTransaction()
-            transaction.replace(R.id.frame_container,all_fragment)
+            transaction.replace(R.id.frame_container,allfragment)
             transaction.addToBackStack(null)
             transaction.commit()
         }

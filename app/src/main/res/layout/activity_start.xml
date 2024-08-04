@@ -12,15 +12,18 @@
 
     <ImageView
         android:id="@+id/imageView2"
-        android:layout_width="300dp"
-        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.322"
-        app:srcCompat="@drawable/bulding_tgpcet" />
+        app:srcCompat="@drawable/tgp" />
 
     <ImageView
         android:id="@+id/imageView3"
@@ -38,7 +41,7 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="38dp"
+        android:layout_marginTop="8dp"
         android:fontFamily="serif"
         android:text="@string/tulsiramji_gaikwad_college_of_nengineering_and_technology"
         android:textAlignment="center"
